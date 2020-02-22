@@ -1,0 +1,10 @@
+@import "./global-css-variables.scss";
+
+body{
+    background-color: $main-bg-color;
+    font-family: "Roboto";
+
+    .app{
+        padding: 20px;
+    }
+}

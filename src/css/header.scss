@@ -1,0 +1,43 @@
+
+@import "./global-css-variables.scss";
+
+.header{
+    text-transform: uppercase;
+    display: flex;
+    position: relative;
+    margin: 10px;
+    font-weight: bold;
+
+    .navbar{
+        display: flex;
+        align-items: center;
+        
+        &.main{
+            width: 100%;
+            justify-content: space-between;
+        }
+
+        .navbar-text{
+            padding: 5px;
+            font-size: 30px;
+            cursor: pointer;
+
+            .icon{
+                padding: 5px;
+            }
+        }
+
+        #name{
+            color: $main-orange-color;
+        }
+
+        #links{
+            color: $main-teal-color;
+            justify-content: right;
+
+            .link:hover{
+                color: $main-orange-color;
+            }
+        }
+    }
+}
